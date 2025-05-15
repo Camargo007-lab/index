@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Portfolio de Desenvolvimento</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="stars-container">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Portfólio - 404Dev</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobrenos.html">Sobre Nós</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="portfolio" class="container">
+            <div class="content-card animate__animated animate__fadeIn">
+                <h1 class="text-center mb-5">Nossos Projetos</h1>
+                
+                <div class="filter-buttons text-center mb-4">
+                    <button class="btn btn-outline-primary active" data-filter="all">Todos</button>
+                    <button class="btn btn-outline-primary" data-filter="web">Web</button>
+                    <button class="btn btn-outline-primary" data-filter="mobile">Mobile</button>
+                    <button class="btn btn-outline-primary" data-filter="database">Banco de Dados</button>
+                </div>
+                
+                <div class="row portfolio-items">
+                    <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="web">
+                        <div class="card h-100">
+                            <img src="https://images.pexels.com/photos/196646/pexels-photo-196646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Projeto de E-commerce">
+                            <div class="card-body">
+                                <h5 class="card-title">Sistema de E-commerce</h5>
+                                <p class="card-text">Desenvolvimento de uma plataforma completa de comércio eletrônico com gerenciamento de produtos, carrinho de compras e integração com sistemas de pagamento.</p>
+                                <div class="technology-tags">
+                                    <span class="badge bg-primary">HTML</span>
+                                    <span class="badge bg-primary">CSS</span>
+                                    <span class="badge bg-primary">JavaScript</span>
+                                    <span class="badge bg-primary">PHP</span>
+                                    <span class="badge bg-primary">MySQL</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="mobile">
+                        <div class="card h-100">
+                            <img src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Aplicativo Mobile">
+                            <div class="card-body">
+                                <h5 class="card-title">Aplicativo de Fitness</h5>
+                                <p class="card-text">Aplicativo mobile para acompanhamento de treinos, monitoramento de progresso e dicas personalizadas de exercícios e alimentação.</p>
+                                <div class="technology-tags">
+                                    <span class="badge bg-primary">Java</span>
+                                    <span class="badge bg-primary">Android Studio</span>
+                                    <span class="badge bg-primary">SQLite</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="database">
+                        <div class="card h-100">
+                            <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Sistema de Banco de Dados">
+                            <div class="card-body">
+                                <h5 class="card-title">Sistema de Gestão Hospitalar</h5>
+                                <p class="card-text">Sistema completo para gestão de hospitais, incluindo cadastro de pacientes, agendamento de consultas, prontuário eletrônico e gestão de medicamentos.</p>
+                                <div class="technology-tags">
+                                    <span class="badge bg-primary">Python</span>
+                                    <span class="badge bg-primary">Django</span>
+                                    <span class="badge bg-primary">PostgreSQL</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="web">
+                        <div class="card h-100">
+                            <img src="https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Dashboard Administrativo">
+                            <div class="card-body">
+                                <h5 class="card-title">Dashboard Administrativo</h5>
+                                <p class="card-text">Painel administrativo com visualização de métricas em tempo real, gráficos interativos e funcionalidades de gerenciamento de usuários.</p>
+                                <div class="technology-tags">
+                                    <span class="badge bg-primary">React</span>
+                                    <span class="badge bg-primary">Node.js</span>
+                                    <span class="badge bg-primary">MongoDB</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="mobile">
+                        <div class="card h-100">
+                            <img src="https://images.pexels.com/photos/6633920/pexels-photo-6633920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Aplicativo de Delivery">
+                            <div class="card-body">
+                                <h5 class="card-title">Aplicativo de Delivery</h5>
+                                <p class="card-text">Aplicativo para entrega de comida com funcionalidades de rastreamento em tempo real, avaliação de restaurantes e sistema de pagamento integrado.</p>
+                                <div class="technology-tags">
+                                    <span class="badge bg-primary">Flutter</span>
+                                    <span class="badge bg-primary">Firebase</span>
+                                    <span class="badge bg-primary">Google Maps API</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="database">
+                        <div class="card h-100">
+                            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Sistema de CRM">
+                            <div class="card-body">
+                                <h5 class="card-title">Sistema de CRM</h5>
+                                <p class="card-text">Sistema completo de gestão de relacionamento com clientes, incluindo pipeline de vendas, histórico de interações e relatórios personalizados.</p>
+                                <div class="technology-tags">
+                                    <span class="badge bg-primary">PHP</span>
+                                    <span class="badge bg-primary">Laravel</span>
+                                    <span class="badge bg-primary">MySQL</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Navegação</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="sobrenos.html">Sobre Nós</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contato</h5>
+                    <p>suporte@404dev.com.br</p>
+                    <p>(11) 98765-0404</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Redes Sociais</h5>
+                    <div class="social-icons">
+                        <a href="https://github.com/Camargo007-lab" class="me-2"><i class="bi bi-github"></i></a>
+                        <a href="https://anchieta.br/" class="me-2"><i class="bi bi-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <p class="copyright">&copy;Trabalho Devops</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
