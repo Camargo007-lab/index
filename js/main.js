@@ -57,10 +57,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const navbar = document.querySelector('.navbar');   
     window.addEventListener('scroll', function() {
       if (window.scrollY > 50) {
-        navbar.style.backgroundColor = 'rgba(25, 25, 35, 0.95)';
+        navbar.style.backgroundColor = 'rgba(0, 0, 0, 0.95)';
         navbar.style.padding = '0.75rem 0';
       } else {
-        navbar.style.backgroundColor = 'rgba(25, 25, 35, 0.9)';
+        navbar.style.backgroundColor = 'rgba(17, 17, 34, 0.9)';
         navbar.style.padding = '1rem 0';
       }
     });

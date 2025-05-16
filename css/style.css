@@ -1,5 +1,5 @@
 :root {
-  --primary: #6d2fe9;
+  --primary: #6b2ce9;
   --secondary: #3a3f58;
   --accent: #5f85db;
   --background: #0f111b;
@@ -63,7 +63,7 @@ body {
 }
 
 .navbar {
-  background-color: rgba(15, 17, 27, 0.9);
+  background-color: rgba(28, 31, 44, 0.9);
   padding: 1rem 0;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
