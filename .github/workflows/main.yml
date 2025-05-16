@@ -1,0 +1,14 @@
+name: Disparar Deploy Externo
+
+on:
+  workflow_dispatch: http://178.156.135.255:3000/api/deploy/9349bb65e728693fee1f2c729903bf1eb7c234524c295a62
+  push:
+    branches:
+      - main  
+jobs:
+  trigger-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enviar requisição para API de deploy
+        run: |
+          curl -X POST http://178.156.135.255:3000/api/deploy/9349bb65e728693fee1f2c729903bf1eb7c234524c295a62
